@@ -79,6 +79,7 @@ export default function App() {
     <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer">Follow me on X (Twitter)</a>
   </div>
 </motion.section>
+      
  <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
         <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
