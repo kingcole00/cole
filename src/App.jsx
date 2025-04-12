@@ -23,13 +23,7 @@ export default function App() {
           <a href="#comedy" className="hover:text-purple-300 underline">🎤 COMEDY</a>
         </nav>
       </div>
-
-      <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
-        <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      </motion.section>
-
-      <motion.section id="videos" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+<motion.section id="videos" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Live from the Galaxy</h2>
         <div className="flex justify-center gap-6 flex-wrap">
           <iframe width="360" height="215" src="https://www.youtube.com/embed/Ph6g0ckDMw8" allowFullScreen></iframe>
@@ -83,7 +77,11 @@ export default function App() {
           <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-100">Follow me on X (Twitter)</a>
         </div>
       </motion.section>
-
+      
+<motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+        <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
+        <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </motion.section>
       <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Join the Transmission</h2>
         <p className="text-purple-300 mb-4">Get cosmic drops, secret shows & King Cole updates.</p>
