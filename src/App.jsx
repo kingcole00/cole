@@ -71,7 +71,7 @@ export default function App() {
         <p className="text-purple-300 mb-2">Want to book King Cole or beam in a message?</p>
         <a href="mailto:kingcole001@yahoo.com" className="text-xl underline text-purple-400 hover:text-purple-200">kingcole001@yahoo.com</a>
        <div className="flex items-center justify-center gap-2 mt-4">
-  <img src="/icon-twitter.png" alt="King Cole on X" className="h-6 w-6" />
+  <img src="/icon-twitter.png" alt="King Cole on X" className="h-1 w-1" />
   <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-100">
     Follow me on X (Twitter)
   </a>
