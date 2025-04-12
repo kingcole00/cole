@@ -24,13 +24,15 @@ export default function App() {
         </nav>
       </div>
 
-      <motion.section id="game" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <h2 className="text-3xl font-bold mb-4 text-pink-400">Cole Chomps: Game & Store</h2>
-        <a href="/cole-chomps-deluxe.html" target="_blank" rel="noopener noreferrer">
-          <button className="bg-gradient-to-r from-indigo-500 to-purple-700 text-white px-6 py-3 mt-6 rounded-full shadow-lg hover:scale-105 hover:rotate-1 hover:shadow-purple-400 transition-all duration-300 ease-in-out flex items-center gap-2">
-            👽 Play Cole Chomps Deluxe
-          </button>
-        </a>
+   <motion.section id="videos" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+  <h2 className="text-3xl font-bold mb-4 text-pink-400">Live from the Galaxy</h2>
+  <div className="flex justify-center gap-6 flex-wrap">
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/Ph6g0ckDMw8" allowFullScreen></iframe>
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/Nwn_DcbIZzg" allowFullScreen></iframe>
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/_G9EDL_ThAg" allowFullScreen></iframe>
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/d7JthvQKXNw" allowFullScreen></iframe>
+  </div>
+</motion.section>
         <div className="mt-8">
           <a href="https://www.ebay.com/str/bestlittlebookhouse" target="_blank" rel="noopener noreferrer">
             <button className="bg-gradient-to-r from-yellow-500 to-pink-600 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 hover:shadow-pink-300 transition-all duration-300 ease-in-out flex items-center gap-2">
