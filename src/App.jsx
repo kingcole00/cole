@@ -85,17 +85,17 @@ export default function App() {
        <div className="flex justify-center gap-4 mt-4">
   <a href="mailto:kingcole001@yahoo.com" title="Email King Cole">
     <img
-      src="/icon-email-small.png"
+      src="/icon-email-18.png"
       alt="Email"
-      className="h-[18px] w-[18px] hover:scale-110 hover:brightness-125 transition-transform duration-200"
+      className="w-[18px] h-[18px] hover:scale-110 hover:brightness-125 transition-transform duration-200"
     />
   </a>
 
   <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer" title="Follow on X">
     <img
-      src="/icon-twitter-small.png"
+      src="/icon-twitter-18.png"
       alt="Twitter"
-      className="h-[18px] w-[18px] hover:scale-110 hover:brightness-125 transition-transform duration-200"
+      className="w-[18px] h-[18px] hover:scale-110 hover:brightness-125 transition-transform duration-200"
     />
   </a>
 </div>
