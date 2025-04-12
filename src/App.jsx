@@ -87,7 +87,7 @@ export default function App() {
     <img
       src="/icon-email-small.png"
       alt="Email"
-      className="h-8 w-8 hover:scale-110 hover:brightness-125 transition-transform duration-200"
+      className="h-12 w-12 hover:scale-110 hover:brightness-125 transition-transform duration-200"
     />
   </a>
 
@@ -95,7 +95,7 @@ export default function App() {
     <img
       src="/icon-twitter-small.png"
       alt="Twitter"
-      className="h-8 w-8 hover:scale-110 hover:brightness-125 transition-transform duration-200"
+      className="h-12 w-12 hover:scale-110 hover:brightness-125 transition-transform duration-200"
     />
   </a>
 </div>
