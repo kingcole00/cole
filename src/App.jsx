@@ -33,7 +33,7 @@ export default function App() {
           <iframe width="360" height="215" src="https://www.youtube.com/embed/Nwn_DcbIZzg" allowFullScreen></iframe>
           <iframe width="360" height="215" src="https://www.youtube.com/embed/_G9EDL_ThAg" allowFullScreen></iframe>
           <iframe width="360" height="215" src="https://www.youtube.com/embed/d7JthvQKXNw" allowFullScreen></iframe>
-          </div>
+        </div>
       </motion.section>
 
       <motion.section id="comedy" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
@@ -41,7 +41,7 @@ export default function App() {
         <p className="text-purple-300">When King Cole isn't launching beats into the cosmos, he's landing punchlines on Earth. 🌍✨</p>
       </motion.section>
 
-<motion.section id="shop" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+      <motion.section id="shop" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
   <h2 className="text-3xl font-bold mb-4 text-pink-400">My Cosmic Bookstore</h2>
   <p className="text-purple-300 mb-4">Rare finds, cosmic vibes, and vintage treasures 📚✨</p>
   <a href="https://www.ebay.com/str/bestlittlebookhouse" target="_blank" rel="noopener noreferrer">
@@ -66,23 +66,19 @@ export default function App() {
         </a>
       </motion.section>
 
-     <motion.section id="contact" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-  <h2 className="text-3xl font-bold mb-4 text-pink-400">Contact</h2>
-  <p className="text-purple-300 mb-2">Want to book King Cole or beam in a message?</p>
-  <div className="flex items-center justify-center gap-2 text-xl text-purple-400 hover:text-purple-200">
-    <Mail size={20} />
-    <a href="mailto:kingcole001@yahoo.com">kingcole001@yahoo.com</a>
-  </div>
-  <div className="mt-4 flex items-center justify-center gap-2 text-purple-300 hover:text-purple-100">
-    <Twitter size={20} />
-    <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer">Follow me on X (Twitter)</a>
-  </div>
-</motion.section>
-      
- <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+      <motion.section id="contact" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+        <h2 className="text-3xl font-bold mb-4 text-pink-400">Contact</h2>
+        <p className="text-purple-300 mb-2">Want to book King Cole or beam in a message?</p>
+        <a href="mailto:kingcole001@yahoo.com" className="text-xl underline text-purple-400 hover:text-purple-200">kingcole001@yahoo.com</a>
+        <div className="mt-4">
+          <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-100">Follow me on X (Twitter)</a>
+        </div>
+      </motion.section>
+       <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
         <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </motion.section>
+
       <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Join the Transmission</h2>
         <p className="text-purple-300 mb-4">Get cosmic drops, secret shows & King Cole updates.</p>
