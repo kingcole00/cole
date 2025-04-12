@@ -61,7 +61,11 @@ export default function App() {
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Cole Chomps: Game & Store</h2>
         <iframe src="/cole-chomps-game.html" width="100%" height="480" title="Cole Chomps Game" className="rounded-lg shadow-lg border border-purple-700"></iframe>
         <div className="mt-8">
-          <iframe src="https://www.ebay.com/str/bestlittlebookhouse" width="100%" height="600" title="King Cole eBay Listings" className="rounded-lg border border-purple-600"></iframe>
+          <a href="https://www.ebay.com/str/bestlittlebookhouse" target="_blank" rel="noopener noreferrer">
+  <button className="bg-purple-700 hover:bg-purple-500 text-white px-6 py-3 mt-6 rounded-full shadow-lg animate-pulse transition-all duration-300 ease-in-out">
+    🛒 Visit My eBay Store – Best Little Bookhouse
+  </button>
+</a>
         </div>
       </motion.section>
 
