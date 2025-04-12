@@ -19,11 +19,20 @@ export default function App() {
         <img src="/neon-skyline.png" alt="Neon Skyline" className="w-full object-cover" />
       </div>
 
-      {/* Header */}
-      <header className="relative z-20 p-6 text-center mt-64">
-        <h1 className="text-5xl font-bold tracking-wide font-mono text-cyan-400">King Cole</h1>
-        <p className="text-xl text-purple-300">Cosmic Legend</p>
-      </header>
+      <div
+  className="min-h-screen bg-cover bg-center text-white flex flex-col items-center justify-center"
+  style={{ backgroundImage: "url('/king-cole-hero-bg.png')" }}
+>
+  <h1 className="text-6xl font-bold tracking-wider text-blue-400 mb-4">KING COLE</h1>
+  <p className="text-2xl text-purple-300 mb-6">COSMIC LEGEND</p>
+  <nav className="flex gap-6 text-lg">
+    <a href="#music" className="hover:text-purple-300 underline">MUSIC</a>
+    <a href="#videos" className="hover:text-purple-300 underline">VIDEOS</a>
+    <a href="#about" className="hover:text-purple-300 underline">ABOUT</a>
+    <a href="#nfts" className="hover:text-purple-300 underline">NFTS</a>
+    <a href="#comedy" className="hover:text-purple-300 underline">COMEDY</a>
+  </nav>
+</div>
 
       {/* Navigation */}
       <nav className="relative z-20 flex justify-center gap-6 p-4 text-lg flex-wrap">
