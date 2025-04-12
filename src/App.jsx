@@ -3,53 +3,27 @@ import { motion } from "framer-motion";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-black text-white font-sans relative overflow-hidden">
-      {/* Cosmic Background */}
-      <div className="absolute inset-0 z-0">
-        <img src="/ufo-king-cole.png" alt="King Cole UFO" className="w-full h-full object-cover opacity-30 animate-pulse" />
+    <div
+      className="min-h-screen w-full bg-cover bg-center bg-no-repeat text-white"
+      style={{
+        backgroundImage: "url('/king-cole-hero-bg.png')",
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="flex flex-col items-center justify-center text-center py-20">
+        <h1 className="text-6xl font-bold tracking-wider text-blue-400 mb-4">KING COLE</h1>
+        <p className="text-2xl text-purple-300 mb-6">COSMIC LEGEND</p>
+        <nav className="flex gap-6 text-lg flex-wrap justify-center">
+          <a href="#music" className="hover:text-purple-300 underline">MUSIC</a>
+          <a href="#videos" className="hover:text-purple-300 underline">VIDEOS</a>
+          <a href="#about" className="hover:text-purple-300 underline">ABOUT</a>
+          <a href="#nfts" className="hover:text-purple-300 underline">NFTS</a>
+          <a href="#comedy" className="hover:text-purple-300 underline">COMEDY</a>
+        </nav>
       </div>
 
-      {/* Floating UFO */}
-      <motion.div className="absolute top-10 left-1/2 transform -translate-x-1/2 z-10" animate={{ y: [0, -10, 0] }} transition={{ duration: 4, repeat: Infinity }}>
-        <img src="/ufo-king-cole.png" alt="Floating UFO" className="w-64 opacity-90" />
-      </motion.div>
-
-      {/* Neon Skyline */}
-      <div className="absolute bottom-0 w-full z-0">
-        <img src="/neon-skyline.png" alt="Neon Skyline" className="w-full object-cover" />
-      </div>
-
-<div
-  className="w-screen h-screen bg-cover bg-center bg-no-repeat text-white flex flex-col items-center justify-center"
-  style={{
-    backgroundImage: "url('/king-cole-hero-bg.png')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
-  <h1 className="text-6xl font-bold tracking-wider text-blue-400 mb-4">KING COLE</h1>
-  <p className="text-2xl text-purple-300 mb-6">COSMIC LEGEND</p>
-  <nav className="flex gap-6 text-lg">
-    <a href="#music" className="hover:text-purple-300 underline">MUSIC</a>
-    <a href="#videos" className="hover:text-purple-300 underline">VIDEOS</a>
-    <a href="#about" className="hover:text-purple-300 underline">ABOUT</a>
-    <a href="#nfts" className="hover:text-purple-300 underline">NFTS</a>
-    <a href="#comedy" className="hover:text-purple-300 underline">COMEDY</a>
-  </nav>
-</div>
-
-      {/* Navigation */}
-      <nav className="relative z-20 flex justify-center gap-6 p-4 text-lg flex-wrap">
-        <a href="#music" className="hover:text-purple-300 flex items-center gap-2"><Music size={20}/> Music</a>
-        <a href="#videos" className="hover:text-purple-300 flex items-center gap-2"><Rocket size={20}/> Videos</a>
-        <a href="#comedy" className="hover:text-purple-300 flex items-center gap-2"><Laugh size={20}/> Comedy</a>
-        <a href="#game" className="hover:text-purple-300 flex items-center gap-2"><Gamepad2 size={20}/> Game & Store</a>
-        <a href="#about" className="hover:text-purple-300 flex items-center gap-2"><UserCircle2 size={20}/> About</a>
-        <a href="#nfts" className="hover:text-purple-300 flex items-center gap-2"><ShoppingBag size={20}/> Merch/NFTs</a>
-        <a href="#contact" className="hover:text-purple-300 flex items-center gap-2"><Contact size={20}/> Contact</a>
-      </nav>
-
-      {/* Sections */}
       <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
         <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
@@ -72,17 +46,17 @@ export default function App() {
 
       <motion.section id="game" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Cole Chomps: Game & Store</h2>
-   <a href="/cole-chomps-deluxe.html" target="_blank" rel="noopener noreferrer">
-  <button className="bg-purple-700 hover:bg-purple-500 text-white px-6 py-3 mt-6 rounded-full shadow-lg animate-pulse">
-    🎮 Play Cole Chomps Deluxe
-  </button>
-</a>
+        <a href="/cole-chomps-deluxe.html" target="_blank" rel="noopener noreferrer">
+          <button className="bg-purple-700 hover:bg-purple-500 text-white px-6 py-3 mt-6 rounded-full shadow-lg animate-pulse transition-all duration-300 ease-in-out">
+            🎮 Play Cole Chomps Deluxe
+          </button>
+        </a>
         <div className="mt-8">
           <a href="https://www.ebay.com/str/bestlittlebookhouse" target="_blank" rel="noopener noreferrer">
-  <button className="bg-purple-700 hover:bg-purple-500 text-white px-6 py-3 mt-6 rounded-full shadow-lg animate-pulse transition-all duration-300 ease-in-out">
-    🛒 Visit My eBay Store – Best Little Bookhouse
-  </button>
-</a>
+            <button className="bg-purple-700 hover:bg-purple-500 text-white px-6 py-2 rounded-full animate-pulse mt-4">
+              🛒 Visit My eBay Store – Best Little Bookhouse
+            </button>
+          </a>
         </div>
       </motion.section>
 
