@@ -19,9 +19,13 @@ export default function App() {
         <img src="/neon-skyline.png" alt="Neon Skyline" className="w-full object-cover" />
       </div>
 
-   <div
-  className="min-h-screen bg-cover bg-center text-white flex flex-col items-center justify-center"
-  style={{ backgroundImage: "url('/king-cole-hero-bg.png')" }}
+<div
+  className="w-screen h-screen bg-cover bg-center bg-no-repeat text-white flex flex-col items-center justify-center"
+  style={{
+    backgroundImage: "url('/king-cole-hero-bg.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
 >
   <h1 className="text-6xl font-bold tracking-wider text-blue-400 mb-4">KING COLE</h1>
   <p className="text-2xl text-purple-300 mb-6">COSMIC LEGEND</p>
