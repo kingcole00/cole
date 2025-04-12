@@ -70,9 +70,12 @@ export default function App() {
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Contact</h2>
         <p className="text-purple-300 mb-2">Want to book King Cole or beam in a message?</p>
         <a href="mailto:kingcole001@yahoo.com" className="text-xl underline text-purple-400 hover:text-purple-200">kingcole001@yahoo.com</a>
-        <div className="mt-4">
-          <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-100">Follow me on X (Twitter)</a>
-        </div>
+       <div className="flex items-center justify-center gap-2 mt-4">
+  <img src="/icon-twitter.png" alt="King Cole on X" className="h-6 w-6" />
+  <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-100">
+    Follow me on X (Twitter)
+  </a>
+</div>
       </motion.section>
        <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
