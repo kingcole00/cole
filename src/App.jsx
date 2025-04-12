@@ -23,6 +23,7 @@ export default function App() {
           <a href="#comedy" className="hover:text-purple-300 underline">🎤 COMEDY</a>
         </nav>
       </div>
+      
 <motion.section id="videos" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Live from the Galaxy</h2>
         <div className="flex justify-center gap-6 flex-wrap">
