@@ -67,13 +67,21 @@ export default function App() {
       </motion.section>
 
   <motion.section id="contact" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <h2 className="text-3xl font-bold mb-4 text-pink-400">Contact</h2>
-        <p className="text-purple-300 mb-2">Want to book King Cole or beam in a message?</p>
-        <a href="mailto:kingcole001@yahoo.com" className="text-xl underline text-purple-400 hover:text-purple-200">kingcole001@yahoo.com</a>
-       <div className="flex items-center justify-center gap-2 mt-4">
-  <img src="/icon-twitter.png" alt="King Cole on X" className="h-5 w-5" />
-  <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-100">
-    Follow me on X (Twitter)
+       <div className="flex justify-center gap-4 mt-4">
+  <a href="mailto:kingcole001@yahoo.com" title="Email King Cole">
+    <img
+      src="/icon-email-small.png"
+      alt="Email"
+      className="h-8 w-8 hover:scale-110 hover:brightness-125 transition-transform duration-200"
+    />
+  </a>
+
+  <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer" title="Follow on X">
+    <img
+      src="/icon-twitter-small.png"
+      alt="Twitter"
+      className="h-8 w-8 hover:scale-110 hover:brightness-125 transition-transform duration-200"
+    />
   </a>
 </div>
       </motion.section>
