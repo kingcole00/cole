@@ -33,7 +33,7 @@ export default function App() {
           <iframe width="360" height="215" src="https://www.youtube.com/embed/Nwn_DcbIZzg" allowFullScreen></iframe>
           <iframe width="360" height="215" src="https://www.youtube.com/embed/_G9EDL_ThAg" allowFullScreen></iframe>
           <iframe width="360" height="215" src="https://www.youtube.com/embed/d7JthvQKXNw" allowFullScreen></iframe>
-          <iframe width="360" height="215" src="https://www.youtube.com/watch?v=8vnNCzIRIZo" allowFullScreen></iframe>
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/8vnNCzIRIZo?si=qddJ1j0V1OtPjBXM" allowFullScreen></iframe>
         </div>
       </motion.section>
 
