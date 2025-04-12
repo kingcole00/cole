@@ -19,7 +19,7 @@ export default function App() {
         <img src="/neon-skyline.png" alt="Neon Skyline" className="w-full object-cover" />
       </div>
 
-      <div
+   <div
   className="min-h-screen bg-cover bg-center text-white flex flex-col items-center justify-center"
   style={{ backgroundImage: "url('/king-cole-hero-bg.png')" }}
 >
