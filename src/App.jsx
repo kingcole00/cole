@@ -33,8 +33,7 @@ export default function App() {
           <iframe width="360" height="215" src="https://www.youtube.com/embed/Nwn_DcbIZzg" allowFullScreen></iframe>
           <iframe width="360" height="215" src="https://www.youtube.com/embed/_G9EDL_ThAg" allowFullScreen></iframe>
           <iframe width="360" height="215" src="https://www.youtube.com/embed/d7JthvQKXNw" allowFullScreen></iframe>
-          <iframe width="360" height="215" src="https://www.youtube.com/watch?v=8vnNCzIRIZo" allowFullScreen></iframe>
-        </div>
+          </div>
       </motion.section>
 
       <motion.section id="comedy" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
