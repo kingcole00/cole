@@ -82,20 +82,20 @@ export default function App() {
           </button>
         </form>
       </motion.section> <motion.section id="contact" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-       <div className="flex justify-center gap-4 mt-4">
+     <div className="flex justify-center gap-4 mt-4">
   <a href="mailto:kingcole001@yahoo.com" title="Email King Cole">
     <img
-      src="/icon-email-18.png"
+      src="/icon-email-48.png"
       alt="Email"
-      className="w-[18px] h-[18px] hover:scale-110 hover:brightness-125 transition-transform duration-200"
+      className="w-12 h-12 animate-pulse hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_6px_#a855f7]"
     />
   </a>
 
   <a href="https://x.com/RobinHooding" target="_blank" rel="noopener noreferrer" title="Follow on X">
     <img
-      src="/icon-twitter-18.png"
+      src="/icon-twitter-48.png"
       alt="Twitter"
-      className="w-[18px] h-[18px] hover:scale-110 hover:brightness-125 transition-transform duration-200"
+      className="w-12 h-12 animate-pulse hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_6px_#60a5fa]"
     />
   </a>
 </div>
