@@ -45,13 +45,8 @@ export default function App() {
       </motion.section>
 
       <motion.section id="game" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <h2 className="text-3xl font-bold mb-4 text-pink-400">Cole Chomps: Game & Store</h2>
-        <a href="/cole-chomps-deluxe.html" target="_blank" rel="noopener noreferrer">
-          <button className="bg-purple-700 hover:bg-purple-500 text-white px-6 py-3 mt-6 rounded-full shadow-lg animate-pulse transition-all duration-300 ease-in-out">
-            🎮 Play Cole Chomps Deluxe
-          </button>
-        </a>
-        <div className="mt-8">
+        
+<div className="mt-8">
           <a href="https://www.ebay.com/str/bestlittlebookhouse" target="_blank" rel="noopener noreferrer">
             <button className="bg-purple-700 hover:bg-purple-500 text-white px-6 py-2 rounded-full animate-pulse mt-4">
               🛒 Visit My eBay Store – Best Little Bookhouse
