@@ -41,21 +41,15 @@ export default function App() {
         <p className="text-purple-300">When King Cole isn't launching beats into the cosmos, he's landing punchlines on Earth. 🌍✨</p>
       </motion.section>
 
-      <motion.section id="game" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <h2 className="text-3xl font-bold mb-4 text-pink-400">Cole Chomps: Game & Store</h2>
-        <a href="/cole-chomps-deluxe.html" target="_blank" rel="noopener noreferrer">
-          <button className="bg-gradient-to-r from-indigo-500 to-purple-700 text-white px-6 py-3 mt-6 rounded-full shadow-lg hover:scale-105 hover:rotate-1 hover:shadow-purple-400 transition-all duration-300 ease-in-out flex items-center gap-2">
-            👽 Play Cole Chomps Deluxe
-          </button>
-        </a>
-        <div className="mt-8">
-          <a href="https://www.ebay.com/str/bestlittlebookhouse" target="_blank" rel="noopener noreferrer">
-            <button className="bg-gradient-to-r from-yellow-500 to-pink-600 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 hover:shadow-pink-300 transition-all duration-300 ease-in-out flex items-center gap-2">
-              📚 Visit My eBay Store
-            </button>
-          </a>
-        </div>
-      </motion.section>
+<motion.section id="shop" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+  <h2 className="text-3xl font-bold mb-4 text-pink-400">My Cosmic Bookstore</h2>
+  <p className="text-purple-300 mb-4">Rare finds, cosmic vibes, and vintage treasures 📚✨</p>
+  <a href="https://www.ebay.com/str/bestlittlebookhouse" target="_blank" rel="noopener noreferrer">
+    <button className="bg-gradient-to-r from-yellow-500 to-pink-600 text-white px-6 py-3 rounded-full shadow-lg hover:scale-105 hover:shadow-pink-300 transition-all duration-300 ease-in-out flex items-center gap-2">
+      📚 Visit My eBay Store
+    </button>
+  </a>
+</motion.section>
 
       <motion.section id="about" className="relative z-20 p-8 text-center max-w-3xl mx-auto" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">About King Cole</h2>
