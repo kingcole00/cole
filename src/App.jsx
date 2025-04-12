@@ -66,7 +66,22 @@ export default function App() {
         </a>
       </motion.section>
 
-  <motion.section id="contact" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+ 
+       <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+        <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
+        <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </motion.section>
+
+      <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+        <h2 className="text-3xl font-bold mb-4 text-pink-400">Join the Transmission</h2>
+        <p className="text-purple-300 mb-4">Get cosmic drops, secret shows & King Cole updates.</p>
+        <form action="https://formspree.io/f/mblgwgaa" method="POST">
+          <input type="email" name="email" required placeholder="Enter your email..." className="px-4 py-2 rounded-full w-64 text-black focus:outline-none" />
+          <button type="submit" className="bg-gradient-to-r from-blue-600 to-indigo-500 text-white ml-2 px-6 py-2 rounded-full shadow-lg hover:scale-105 hover:shadow-indigo-400 transition-all duration-300 ease-in-out flex items-center gap-2">
+            📬 Subscribe
+          </button>
+        </form>
+      </motion.section> <motion.section id="contact" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
        <div className="flex justify-center gap-4 mt-4">
   <a href="mailto:kingcole001@yahoo.com" title="Email King Cole">
     <img
@@ -84,21 +99,6 @@ export default function App() {
     />
   </a>
 </div>
-      </motion.section>
-       <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
-        <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      </motion.section>
-
-      <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <h2 className="text-3xl font-bold mb-4 text-pink-400">Join the Transmission</h2>
-        <p className="text-purple-300 mb-4">Get cosmic drops, secret shows & King Cole updates.</p>
-        <form action="https://formspree.io/f/mblgwgaa" method="POST">
-          <input type="email" name="email" required placeholder="Enter your email..." className="px-4 py-2 rounded-full w-64 text-black focus:outline-none" />
-          <button type="submit" className="bg-gradient-to-r from-blue-600 to-indigo-500 text-white ml-2 px-6 py-2 rounded-full shadow-lg hover:scale-105 hover:shadow-indigo-400 transition-all duration-300 ease-in-out flex items-center gap-2">
-            📬 Subscribe
-          </button>
-        </form>
       </motion.section>
 
       <footer className="relative z-20 p-6 text-center text-purple-400">
