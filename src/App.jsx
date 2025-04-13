@@ -32,7 +32,8 @@ export default function App() {
       </motion.section>
 
       <motion.section id="comedy" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <h2 className="text-3xl font-bold mb-4 text-pink-400">Stand-Up Comedy</h2>
+        <h2 className="text-3xl font-bold mb-4 text-pink-400">Renaissance man
+</h2>
         <p className="text-purple-300">When King Cole isn't launching beats into the cosmos, he's landing punchlines on Earth , making films , Acting , doing astronomy , flying drones and spreading his cosmic engery and love. 🌍✨</p>
       </motion.section>
 
