@@ -1,6 +1,5 @@
 import { Music, Rocket, Sparkles, Contact, ShoppingBag, UserCircle2, Laugh, Gamepad2 } from "lucide-react";
 import { motion } from "framer-motion";
-import InstagramProfileWidget from './components/InstagramProfileWidget';
 export default function App() {
   return (
     <div
