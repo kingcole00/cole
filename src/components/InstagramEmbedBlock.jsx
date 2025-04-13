@@ -1,31 +1,22 @@
 import { useEffect } from 'react';
 
-export default function InstagramEmbedBlock() {
+export default function InstagramProfileWidget() {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://www.instagram.com/embed.js';
+    const script = document.createElement("script");
+    script.src = "https://static.elfsight.com/platform/platform.js";
     script.async = true;
     document.body.appendChild(script);
   }, []);
 
   return (
-    <div className="flex justify-center mt-8">
-      <blockquote
-        className="instagram-media"
-        data-instgrm-permalink="https://www.instagram.com/cosmiccosmo007/"
-        data-instgrm-version="12"
-        style={{
-          background: '#FFF',
-          border: 0,
-          borderRadius: '3px',
-          boxShadow: '0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15)',
-          margin: '1px',
-          maxWidth: '540px',
-          minWidth: '326px',
-          width: '99.375%',
-        }}
-      ></blockquote>
-    </div>
+    <section className="w-full bg-black py-12 text-center">
+      <h2 className="text-3xl text-purple-400 font-bold mb-6 animate-pulse">
+        📸 Live from the CosmicCam
+      </h2>
+      <p className="text-blue-300 mb-8 max-w-xl mx-auto">
+        Straight from the interstellar adventures of @cosmiccosmo007. Hover, like, and vibe with our galaxy feed.
+      </p>
+      <div className="elfsight-app-2b691b45-1b50-4180-bac3-7cc51dabad87" data-elfsight-app-lazy></div>
+    </section>
   );
 }
-
