@@ -97,6 +97,14 @@ export default function App() {
   </a>
 </div>
       </motion.section>
+      <div className="fixed bottom-4 right-4 z-50 animate-float">
+  <img
+    src="/cosmo.png"
+    alt="Floating Cosmo"
+    className="w-20 h-20 hover:scale-110 transition-transform duration-300 drop-shadow-[0_0_10px_#a855f7]"
+    onMouseEnter={() => new Audio('/bark.mp3').play()}
+  />
+</div>
 
       <footer className="relative z-20 p-6 text-center text-purple-400">
         <p>© 2025 King Cole. All rights reserved in this galaxy and the next.</p>
