@@ -12,7 +12,7 @@ export default function InstagramEmbedBlock() {
     <div className="flex justify-center mt-8">
       <blockquote
         className="instagram-media"
-        data-instgrm-permalink="https://www.instagram.com/p/CosmicCosmo007/"
+        data-instgrm-permalink="https://www.instagram.com/cosmiccosmo007/"
         data-instgrm-version="12"
         style={{
           background: '#FFF',
