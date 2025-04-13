@@ -2,6 +2,7 @@ import { Music, Rocket, Sparkles, Contact, ShoppingBag, UserCircle2, Laugh, Game
 import { motion } from "framer-motion";
 export default function App() {
   return (
+    import InstagramProfileWidget from './components/InstagramProfileWidget';
     <div
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat text-white"
       style={{
@@ -31,8 +32,9 @@ export default function App() {
           <iframe width="360" height="215" src="https://www.youtube.com/embed/8vnNCzIRIZo?si=qddJ1j0V1OtPjBXM" allowFullScreen></iframe>
         </div>
       </motion.section>
-      
-      <motion.section id="comedy" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+     
+
+  <motion.section id="comedy" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Stand-Up Comedy</h2>
         <p className="text-purple-300">When King Cole isn't launching beats into the cosmos, he's landing punchlines on Earth. 🌍✨</p>
       </motion.section>
@@ -67,7 +69,7 @@ export default function App() {
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
         <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </motion.section> 
-  
+  <InstagramProfileWidget />
 
       <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Join the Transmission</h2>
