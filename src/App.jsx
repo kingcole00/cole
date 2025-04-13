@@ -16,11 +16,7 @@ export default function App() {
         <h1 className="text-6xl font-bold tracking-wider text-blue-400 mb-4">KING COLE</h1>
         <p className="text-2xl text-purple-300 mb-6">COSMIC LEGEND</p>
         <nav className="flex gap-6 text-lg flex-wrap justify-center">
-          <a href="#music" className="hover:text-purple-300 underline">🎧 MUSIC</a>
-          <a href="#videos" className="hover:text-purple-300 underline">📺 VIDEOS</a>
-          <a href="#about" className="hover:text-purple-300 underline">🪐 ABOUT</a>
-          <a href="#nfts" className="hover:text-purple-300 underline">👾 NFTS</a>
-          <a href="#comedy" className="hover:text-purple-300 underline">🎤 COMEDY</a>
+          
         </nav>
       </div>
 
