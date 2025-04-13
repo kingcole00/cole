@@ -69,7 +69,7 @@ export default function App() {
       {/* ✅ Instagram Profile Feed */}
       <InstagramProfileWidget />
 
-      {/* ✅ X (Twitter) Post Embed */}
+      <TweetEmbed />
       
 
       <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
