@@ -67,13 +67,14 @@ export default function App() {
        <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
         <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-      </motion.section> {/* Elfsight Instagram Feed */}
-<div className="mt-8">
+      </motion.section> 
+      {/* Elfsight Instagram Feed */}
+<iframe <div className="mt-8">
   <div
     className="elfsight-app-2b691b45-1b50-4180-bac3-7cc51dabad87"
     data-elfsight-app-lazy
   ></div>
-</div>
+</div>></iframe>
 
 
       <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
