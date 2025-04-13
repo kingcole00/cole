@@ -2,11 +2,11 @@ import { useEffect } from 'react';
 
 export default function CosmicBurghSection() {
   useEffect(() => {
-    const script = document.createElement("script");
-    script.setAttribute("src", "https://embedsocial.com/embedscript/in.js");
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
+  const script = document.createElement("script");
+  script.src = "https://static.elfsight.com/platform/platform.js";
+  script.async = true;
+  document.body.appendChild(script);
+}, []);
 
   return (
     <section
