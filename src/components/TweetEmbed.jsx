@@ -15,7 +15,7 @@ export default function TweetEmbed() {
         className="twitter-tweet"
         data-theme="dark"
       >
-        <a href="https://x.com/RobinHooding/status/1234567890123456789"></a>
+        <a href="https://x.com/RobinHooding/status/1910142967915913700"></a>
       </blockquote>
     </div>
   );
