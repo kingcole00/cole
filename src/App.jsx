@@ -70,7 +70,7 @@ export default function App() {
       <InstagramProfileWidget />
 
       {/* ✅ X (Twitter) Post Embed */}
-      <TweetEmbed /> <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I will be hosting + doing some comedy in between sets at this show on the 23rd <br>Help a young mom fight cancer ✨🙏<br>Rock for Hope: A Benefit for Noelle at 565 LIVE<br>Noelle DeFazio, a mother of two from Pittsburgh, PA, is battling stage 4 cervical cancer. She has undergone multiple… <a href="https://t.co/OzrHrC1xOa">pic.twitter.com/OzrHrC1xOa</a></p>&mdash; King Cole (@RobinHooding) <a href="https://twitter.com/RobinHooding/status/1910142967915913700?ref_src=twsrc%5Etfw">April 10, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      
 
       <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Join the Transmission</h2>
