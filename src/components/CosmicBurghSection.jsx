@@ -49,12 +49,10 @@ export default function CosmicBurghSection() {
 
         {/* Instagram Embed */}
         <div className="mb-2">
-          <iframe
-            src="https://snapwidget.com/embed/1041574"
-            className="w-full h-[400px] border-none rounded-lg shadow-md"
-            allowtransparency="true"
-            title="Instagram feed"
-          ></iframe>
+         {/* Elfsight Instagram Feed */}
+<div className="mt-8">
+  <div className="elfsight-app-2b691b45-1b50-4180-bac3-7cc51dabad87" data-elfsight-app-lazy></div>
+</div>
         </div>
       </div>
     </section>
