@@ -1,4 +1,5 @@
 import InstagramProfileWidget from './components/InstagramProfileWidget';
+import TweetEmbed from './components/TweetEmbed';
 import { Music, Rocket, Sparkles, Contact, ShoppingBag, UserCircle2, Laugh, Gamepad2 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -65,8 +66,11 @@ export default function App() {
         <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </motion.section>
 
-      {/* ✅ Instagram Profile Feed Inserted Here */}
+      {/* ✅ Instagram Profile Feed */}
       <InstagramProfileWidget />
+
+      {/* ✅ X (Twitter) Post Embed */}
+      <TweetEmbed />
 
       <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Join the Transmission</h2>
@@ -104,3 +108,4 @@ export default function App() {
     </div>
   );
 }
+
