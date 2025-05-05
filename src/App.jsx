@@ -1,5 +1,6 @@
 import InstagramProfileWidget from './components/InstagramProfileWidget';
 import TweetEmbed from './components/TweetEmbed';
+import NFTCarousel from './components/NFTCarousel';
 import { Music, Rocket, Sparkles, Contact, ShoppingBag, UserCircle2, Laugh, Gamepad2 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -32,8 +33,7 @@ export default function App() {
       </motion.section>
 
       <motion.section id="comedy" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <h2 className="text-3xl font-bold mb-4 text-pink-400">Renaissance man
-</h2>
+        <h2 className="text-3xl font-bold mb-4 text-pink-400">Renaissance man</h2>
         <p className="text-purple-300">When King Cole isn't launching beats into the cosmos, he's landing punchlines on Earth , making films , Acting , doing astronomy , flying drones and spreading his cosmic engery and love. 🌍✨</p>
       </motion.section>
 
@@ -62,16 +62,18 @@ export default function App() {
         </a>
       </motion.section>
 
+      <motion.section id="carousel" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+        <h2 className="text-3xl font-bold mb-4 text-pink-400">Cosmic NFT Carousel</h2>
+        <NFTCarousel />
+      </motion.section>
+
       <motion.section id="music" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Featured Tracks</h2>
         <iframe src="https://open.spotify.com/embed/artist/4CQnbedqSMOeOZmoQIAei0" width="300" height="380" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </motion.section>
 
-      {/* ✅ Instagram Profile Feed */}
       <InstagramProfileWidget />
-
       <TweetEmbed />
-      
 
       <motion.section id="newsletter" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
         <h2 className="text-3xl font-bold mb-4 text-pink-400">Join the Transmission</h2>
@@ -102,14 +104,6 @@ export default function App() {
           </a>
         </div>
       </motion.section>
-      import NFTCarousel from './components/NFTCarousel';
-
-// Then in your JSX:
-<motion.section id="carousel" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-  <h2 className="text-3xl font-bold mb-4 text-pink-400">Cosmic NFT Carousel</h2>
-  <NFTCarousel />
-</motion.section>
-
 
       <footer className="relative z-20 p-6 text-center text-purple-400">
         <p>© 2025 King Cole. All rights reserved in this galaxy and the next.</p>
@@ -117,4 +111,3 @@ export default function App() {
     </div>
   );
 }
-
