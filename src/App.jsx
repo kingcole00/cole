@@ -102,6 +102,14 @@ export default function App() {
           </a>
         </div>
       </motion.section>
+      import NFTCarousel from './components/NFTCarousel';
+
+// Then in your JSX:
+<motion.section id="carousel" className="relative z-20 p-8 text-center" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+  <h2 className="text-3xl font-bold mb-4 text-pink-400">Cosmic NFT Carousel</h2>
+  <NFTCarousel />
+</motion.section>
+
 
       <footer className="relative z-20 p-6 text-center text-purple-400">
         <p>© 2025 King Cole. All rights reserved in this galaxy and the next.</p>
